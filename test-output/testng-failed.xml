@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.tests.SearchByCategoryTestRunner">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.tests.SearchByCategoryTestRunner -->
+      <class name="com.tests.LoginPageTestRunner">
+        <methods>
+          <include name="setUP"/>
+          <include name="login" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tests.LoginPageTestRunner -->
+      <class name="com.tests.AdminPageTestRunner">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUP"/>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.tests.AdminPageTestRunner -->
+      <class name="com.tests.RegisterPageTestRunner">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+          <include name="setUP"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tests.RegisterPageTestRunner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
